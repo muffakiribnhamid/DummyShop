@@ -39,6 +39,7 @@
 .card {
   justify-content: center;
   display: flex;
+  height: 300px;
   flex-direction: column;
 }
 
@@ -64,5 +65,58 @@
   height: 30px;
   margin: 0 auto;
   font-size: 10px;
+
+}
+
+
+.main-screen {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main-details {
+  justify-content: center;
+  margin: 20px;
+  display: flex;
+}
+
+.main-details .left-product img {
+  height: 500px;
+  border-radius: 10px ;
+  border: 1px solid black;
+}
+
+
+.right-details {
+  width: 600px;
+}
+
+.main-details .right-details {
+  margin: 20px;
+  justify-content: center;
+}
+.main-details .right-details h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.main-details .right-details p {
+  font-size: 15px;
+  color: gray;
+}
+
+.main-details .right-details h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: blue;
+}
+
+.main-details .right-details .inner-details {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  justify-content:space-around;
+  
 
 }
