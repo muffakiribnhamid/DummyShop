@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+  font-family: 'Poppins';
+}
+.main-nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.left h3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.left h3:hover {
+  color: gray;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.main-nav .right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.main-nav .right a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 0.2s ease ease-in-out;
+}
+
+
+.card {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-card-div .card {
+  width: 200px;
+  margin: 60px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid;
+}
+
+.main-card-div .card h3 {
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+
+}
+.main-card-div .card button {
+  color: rgb(0, 0, 0);
+  border: 1px solid black;
+  padding: 5px;
+  width: 80px;
+  height: 30px;
+  margin: 0 auto;
+  font-size: 10px;
+
+}
